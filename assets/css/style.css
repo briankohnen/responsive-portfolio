@@ -99,6 +99,7 @@ small {
     padding: 25px;
     border: 1px solid #dddddd;
     color: #777777;
+    flex: 1;
 }
 
 .portfolioItem {
@@ -127,22 +128,23 @@ small {
 
 #contactSection {
     background: #fbfbfb;
-    max-width: 960px;
+    width: 85%;
     margin: 75px auto;
     padding: 25px;
     border: 1px solid #dddddd;
     color: #777777;
+    flex: 1;
 }
 
 .contactLabel {
     margin: 10px 25px 0 0;
-    display: block;
+    display: inherit;
 }
 
 .contactForm {
     margin: 10px 25px 0 0;
     display: block;
-    width: 650px;
+    width: 85%;
 }
 
 textarea {
@@ -179,5 +181,28 @@ button:active {
         position: static;
         float: unset;
         margin-top: 10px;
+    }
+
+    #contactSection {
+        max-width: unset;
+        min-width: 80%;
+    }
+
+    .contactForm {
+        width: unset;
+        min-width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #contactSection {
+        max-width: unset;
+        min-width: 80%;
+    }
+
+    .contactForm {
+        width: unset;
+        min-width: 80%;
     }
 }
