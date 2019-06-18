@@ -196,6 +196,10 @@ button:active {
         margin-top: 10px;
     }
 
+    .portfolioItem {
+        margin-left: 100px;
+    }
+
     .portfolioItem:hover {
         -ms-transform: unset;
         -webkit-transform: unset;
@@ -224,6 +228,7 @@ button:active {
     .portfolioItem {
         display: block;
         position: static;
+        margin-left: 100px;
     }
     
     .portfolioItem:hover {
