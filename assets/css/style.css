@@ -128,7 +128,7 @@ small {
 
 #contactSection {
     background: #fbfbfb;
-    width: 85%;
+    width: 65%;
     margin: 75px auto;
     padding: 25px;
     border: 1px solid #dddddd;
@@ -144,11 +144,12 @@ small {
 .contactForm {
     margin: 10px 25px 0 0;
     display: block;
-    width: 85%;
+    width: 95%;
 }
 
 textarea {
-    max-width: 950px;
+    min-width: 50%;
+    max-width: 95%;
 }
 
 button {
@@ -162,6 +163,18 @@ button {
 button:active {
     background: #777777;
 }
+
+@media screen and (max-width: 980px) {
+    /* #contactSection {
+        max-width: unset;
+        min-width: 80%;
+    }
+
+    .contactForm {
+        width: unset;
+        min-width: 80%;
+    } */
+} 
 
 @media screen and (max-width: 768px) {
     #nameLogo {
@@ -183,7 +196,15 @@ button:active {
         margin-top: 10px;
     }
 
-    #contactSection {
+    .portfolioItem:hover {
+        -ms-transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -o-transform: unset;
+        transform: unset;
+      }
+
+    /* #contactSection {
         max-width: unset;
         min-width: 80%;
     }
@@ -191,18 +212,29 @@ button:active {
     .contactForm {
         width: unset;
         min-width: 80%;
-    }
+    } */
 }
 
 @media screen and (max-width: 640px) {
 
-    #contactSection {
-        max-width: unset;
-        min-width: 80%;
+    #portfolioSection {
+        width: 85%;
     }
+    
+    .portfolioItem {
+        display: block;
+        position: static;
+    }
+    
+    .portfolioItem:hover {
+        -ms-transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -o-transform: unset;
+        transform: unset;
+      }
 
-    .contactForm {
-        width: unset;
-        min-width: 80%;
+    #mePic {
+        float: unset;
     }
 }
