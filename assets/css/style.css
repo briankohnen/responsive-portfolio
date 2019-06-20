@@ -197,7 +197,7 @@ button:active {
     }
 
     .portfolioItem {
-        margin-left: 100px;
+        margin-left: 225px;
     }
 
     .portfolioItem:hover {
@@ -228,7 +228,7 @@ button:active {
     .portfolioItem {
         display: block;
         position: static;
-        margin-left: 100px;
+        margin-left: 30%;
     }
     
     .portfolioItem:hover {
@@ -241,6 +241,8 @@ button:active {
 
     #mePic {
         float: unset;
+        margin-left: 40%;
+        
     }
 }
 
