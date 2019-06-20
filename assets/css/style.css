@@ -12,9 +12,10 @@ body {
     width: 100%;
     height: 120px;
     background: #fbfbfb;
-    position: relative;
+    position: sticky;
     top: 0;
     border-bottom: 2px solid #cccccc;
+    z-index: 100;
 }
 
 #nameLogo {
@@ -25,7 +26,7 @@ body {
     left: 250px;
     padding: 25px;
     text-align: center;
-    z-index: 100;
+    z-index: 200;
 }
 
 #siteNav {
@@ -124,6 +125,7 @@ small {
     color: white;
     box-sizing: border-box;
     text-align: center;
+    z-index: 99;
 }
 
 #contactSection {
@@ -181,12 +183,12 @@ button:active {
         position: static;
         display: block;
         padding: 1px;
-        z-index: unset;
     }
 
     #headContainer {
-        position: unset;
+        position: sticky;
         display: block;
+        z-index: 100;
     }
 
     #siteNav {
