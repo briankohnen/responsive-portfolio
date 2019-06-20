@@ -84,13 +84,13 @@ h1 {
     border-top: 8px solid #51C7E8;
     height: 50px;
     background: #666666;
+    text-align: center;
 }
 
 small {
     color: lightgray;
     position: relative;
     top: 15px;
-    left: 50%;
 }
 
 #portfolioSection {
